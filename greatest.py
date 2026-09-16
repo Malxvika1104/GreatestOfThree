@@ -1,7 +1,10 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+a = 10
+b = 25
+c = 15
 
 greatest = max(a, b, c)
 
+print("First number:", a)
+print("Second number:", b)
+print("Third number:", c)
 print("Greatest number is:", greatest)
